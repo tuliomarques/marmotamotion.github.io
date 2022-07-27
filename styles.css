@@ -80,7 +80,7 @@ li a{
 }
 
 #banner{
-    background-image: url(img/bg3.jpg);
+    background-image: url(bg3.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -226,7 +226,7 @@ span{
 
 #info{
     height: auto;
-    background-image: url(img/black-carbon-fiber-texture-pattern-background_1017-33436.jpg);
+    background-image: url(black-carbon-fiber-texture-pattern-background_1017-33436.jpg);
  
     background-color: #000;
     margin-top: 0;
@@ -428,7 +428,7 @@ iframe{
 }
 
 #section{
-    background-image: url(img/pattern.png);
+    background-image: url(pattern.png);
     background-repeat: repeat-x;
     background-size: cover;
     opacity: 100%;
