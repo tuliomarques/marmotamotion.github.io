@@ -51,24 +51,7 @@ nav a:hover{
     }
 }
 
-@media only screen and (max-width:400px){
-    img.logo{
-        width: 120px;
-    }
-}
-
 @media only screen and (max-width:960px){
-    #links ul{
-       
-        margin: 20px;
-    }
-    #links li{
-        padding: 5px;
-        list-style: none;
-    }
-}
-
-@media only screen and (max-width:400px){
     #links ul{
        
         margin: 20px;
@@ -113,13 +96,6 @@ li a{
     }
 }
 
-@media only screen and (max-width:400px){
-    #banner{
-        display: flex;
-        top: 0;
-    }
-}
-
 
 #banner-text{
     position: relative;
@@ -140,16 +116,6 @@ li a{
     }
 }
 
-@media only screen and (max-width:400px){
-    #banner-text{
-    margin: 40px;
-    font-size: .9em;
-    top:180px;
-    }
-    #banner-text p{
-        display: none;
-    }
-}
 
 .cta{
     padding: 20px 25px;
@@ -247,9 +213,6 @@ span{
     color:rgb(255, 61, 126);
 }
 
-
-
-
 .p_banner{
     color:rgb(116, 116, 116);
     font-size: 1.5em;
@@ -310,27 +273,12 @@ span{
     }
 }
 
-@media only screen and (max-width: 400px){
-    #info{ 
-        flex-direction: column;
-        height: auto;
-    }
-}
-
 @media only screen and (max-width: 960px){
     .info_description{ 
         padding: 20px;
         width: 80%;
     }
 }
-
-@media only screen and (max-width: 400px){
-    .info_description{ 
-        padding: 20px;
-        width: 80%;
-    }
-}
-
 
 @media only screen and (max-width: 960px){
     .info_h3{ 
@@ -339,12 +287,6 @@ span{
     }
 }
 
-@media only screen and (max-width: 400px){
-    .info_h3{ 
-        
-
-    }
-}
 
 @media only screen and (max-width: 960px){
     .info_description img{ 
@@ -356,15 +298,6 @@ span{
     }
 }
 
-@media only screen and (max-width: 400px){
-    .info_description img{ 
-        float:left;
-        display: inline-block;
-        width:120px;
-        margin-top:20px;
-     
-    }
-}
 
 @media only screen and (max-width: 960px){
     .info_description p{ 
@@ -373,16 +306,6 @@ span{
   
     }
 }
-
-@media only screen and (max-width: 400px){
-    .info_description p{ 
-        display: inline-block;
-        width: 60%
-  
-    }
-}
-
-
 
 
 article{
@@ -405,15 +328,6 @@ article #tab_section{
     }
 }
 
-@media only screen and (max-width:400px){
-    article #tab_section{
-        display: inline-block;
-        flex-direction: column;
-        justify-content: center;
-        height: auto;  
-    }
-}
-
 @media only screen and (max-width:960px){
     .tab {
         display: block;
@@ -422,16 +336,6 @@ article #tab_section{
        
     }
 }
-
-@media only screen and (max-width:400px){
-    .tab {
-        display: block;
-   
-        text-align: center;
-       
-    }
-}
-
 
 #tab_section{
     height: 550px;
@@ -497,14 +401,6 @@ iframe{
     }
 }
 
-@media only screen and (max-width: 400px){
-    section{ 
-        flex-direction: column;
-        height: auto;
-    
-    }
-}
-
 @media only screen and (max-width: 960px){
     #video_description{ 
         margin: 10px;
@@ -512,24 +408,7 @@ iframe{
     }
 }
 
-@media only screen and (max-width: 400px){
-    #video_description{ 
-        margin: 10px;
-    
-    }
-}
-
-
-
 @media only screen and (max-width: 960px){
-    iframe{ 
-        width: fit-content;
-        margin-bottom: 0;
-        height: auto;
-    }
-}
-
-@media only screen and (max-width: 400px){
     iframe{ 
         width: fit-content;
         margin-bottom: 0;
@@ -561,13 +440,6 @@ iframe{
     }
 }
 
-@media only screen and (max-width:400px){
-    #section{
-        height: auto;
-    }
-}
-
-
 #team{
     padding: 60px 0 0 0;
     width: 100%;
@@ -591,15 +463,6 @@ iframe{
 
 
 @media only screen and (max-width:960px){
-    .person{
-        height: auto;
-        margin: 20px;   
-        padding: 20px; 
-          
-    }
-}
-
-@media only screen and (max-width:400px){
     .person{
         height: auto;
         margin: 20px;   
@@ -635,20 +498,6 @@ iframe{
 }
 
 @media only screen and (max-width:960px){
-    #newsletter{
-        height: auto;
-        
-    }
-    .cta2{
-        display: flex;
-        justify-content: center;
-    }
-    #newsletter p{
-        margin: 10px;
-    }
-}
-
-@media only screen and (max-width:400px){
     #newsletter{
         height: auto;
         
@@ -755,33 +604,6 @@ footer p{
 }
 
 @media only screen and (max-width:960px){
-    footer{
-        height: auto;
-        padding: 20px;
-    }
-    #footer{  
-        display:inline-flex;
-        flex-direction: column;
-        height: auto;
-        
-    }
-    .foot1{
-        display: none;
-    }
-    .foot2{
-        display: none;
-    }
-    .foot3{
-        margin: 20px auto;
-        display: inline-block;
-        text-align: center;
-        width: fit-content;
-       
-    }
-}
-
-
-@media only screen and (max-width:400px){
     footer{
         height: auto;
         padding: 20px;
